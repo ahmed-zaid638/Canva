@@ -5,6 +5,7 @@ function page() {
     <div className="">
       <div>Hi, Welcome </div>
       <div>Hi, Welcome 2 </div>
+      <div>Hi, Welcome 3 </div>
     </div>
   );
 }
