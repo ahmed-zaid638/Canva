@@ -1,10 +1,21 @@
-import React from 'react'
+"use client";
+import useStore from "@/app/store";
+import React from "react";
 
 function SideBar() {
+  const { login } = useStore();
+  console.log(login);
+
   return (
-    <div>SideBar</div>
-  )
+    <>
+      {login ? (
+        <div className="border-r shadow h-screen w-32  fixed top-20 left-0 p-3"></div>
+      ) : (
+        ""
+      )}
+    </>
+  );
 }
 
-export default SideBar
-
+export default SideBar;
+ 
