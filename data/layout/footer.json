@@ -1,0 +1,63 @@
+[
+    {
+      "title": "Company",
+      "links": [
+        { "text": "About", "url": "#" },
+        { "text": "Careers", "url": "#" },
+        { "text": "Media Kit", "url": "#" },
+        { "text": "Contact", "url": "#" },
+        { "text": "Investor Relations", "url": "#" },
+        { "text": "Affiliates", "url": "#" },
+        { "text": "Partnerships", "url": "#" }
+      ]
+    },
+    {
+      "title": "Features",
+      "links": [
+        { "text": "Design", "url": "#" },
+        { "text": "Templates", "url": "#" },
+        { "text": "Photos", "url": "#" },
+        { "text": "Apps", "url": "#" },
+        { "text": "Print", "url": "#" },
+        { "text": "Teams", "url": "#" },
+        { "text": "Education", "url": "#" }
+      ]
+    },
+    {
+      "title": "Explore",
+      "links": [
+        { "text": "Design Types", "url": "#" },
+        { "text": "Categories", "url": "#" },
+        { "text": "Pricing", "url": "#" },
+        { "text": "Blog", "url": "#" },
+        { "text": "Learn", "url": "#" },
+        { "text": "Brand Kit", "url": "#" },
+        { "text": "Tools", "url": "#" }
+      ]
+    },
+    {
+      "title": "Community",
+      "links": [
+        { "text": "Canva for Education", "url": "#" },
+        { "text": "Canva for Nonprofits", "url": "#" },
+        { "text": "Developers", "url": "#" },
+        { "text": "Contributors", "url": "#" },
+        { "text": "Ambassadors", "url": "#" },
+        { "text": "Events", "url": "#" },
+        { "text": "Challenges", "url": "#" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "text": "Help Center", "url": "#" },
+        { "text": "Support", "url": "#" },
+        { "text": "Terms of Service", "url": "#" },
+        { "text": "Privacy Policy", "url": "#" },
+        { "text": "Security", "url": "#" },
+        { "text": "Sitemap", "url": "#" },
+        { "text": "Accessibility", "url": "#" }
+      ]
+    }
+  ]
+  

@@ -4,7 +4,7 @@ import React from "react";
 
 function SideBar() {
   const { login } = useStore();
-  console.log(login);
+  // console.log(login);
 
   return (
     <>

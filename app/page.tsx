@@ -1,12 +1,9 @@
 import React from "react";
-import Button from "./components/common/Button";
-import HomePage from "./components/pages/HomePage";
-import { Sliders } from "lucide-react";
-import CustomSlider from "./components/common/Slider/Slider";
+import HomePage from "./components/pages/HomePage/HomePage";
 
 function page() {
   return (
-    <div className=" w-full  h-[400vh] ">
+    <div className=" w-full ">
       <HomePage />
     </div>
   );

@@ -1,21 +1,26 @@
 "use client";
 import Header from "./components/layout/Header";
 import SideBar from "./components/layout/SideBar";
-useStore;
 import "./globals.css";
 import useStore from "./store";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+});
 
 export default function RootLayout({ children }: any) {
   const { login } = useStore();
 
   return (
     <html lang="en">
-      <body className="">
+      <body className={roboto.className}>
         <div className="overflow-x-hidden z-30">
           <Header />
           <div className="flex">
             <SideBar />
-            <main className={`p-4 mt-20  ${login ? " ml-32" : ""} w-full `}>
+            <main className={` mt-20  ${login ? " ml-32" : ""} w-full `}>
               {children}
             </main>
           </div>
