@@ -2,9 +2,9 @@
 import Header from "./components/layout/Header";
 import SideBar from "./components/layout/SideBar";
 import "./globals.css";
+import useUser from "./hooks/useUser";
 import useStore from "./store";
 import { Roboto } from "next/font/google";
-
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
