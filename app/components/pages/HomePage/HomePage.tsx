@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import Button from "../../common/Button";
 import Slider from "../../common/Slider/Slider2";
 import { ChevronDown, Crown } from "lucide-react";
@@ -6,9 +7,10 @@ import Image from "next/image";
 import Footer from "../../layout/Footer";
 import Pricing from "./Pricing";
 import Start from "./Start";
+import axios from "axios";
 
 function HomePage() {
-  return (
+ return (
     <div className="w-full">
       <div className="w-full text-center">
         <div className="text-[48px] font-bold text-color-dark mt-10">
